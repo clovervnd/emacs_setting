@@ -1,0 +1,1 @@
+("~/Dropbox/lanada_jk/Research/plb/" "~/.emacs.d/" "~/Desktop/Double-MAC/")
