@@ -59,3 +59,9 @@
                     ("M-g z" . dumb-jump-go-prefer-external-other-window))
              :config (setq dumb-jump-selector 'ivy) ;; (setq dumb-jump-selector 'helm)
              :ensure)
+
+(global-set-key (kbd "C-d")
+                (lambda () (interactive) (next-line 20)))
+
+(global-set-key (kbd "C-u")
+                (lambda () (interactive) (previous-line 20)))
